@@ -27,7 +27,7 @@ btnMany.addEventListener('click', function() {
 btnAfew.addEventListener('click', function() {
     let audio = document.getElementById('wrong2')
     audio.play()
-    answer.innerHTML = "a few"
+    answer.innerHTML = "few"
     answer.style.color = 'red'
     btnAfew.style.background = ' red'
     btnAfew.disabled = 'true'
